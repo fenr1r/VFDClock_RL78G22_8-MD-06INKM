@@ -1,0 +1,1179 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0        4     2 .vec
+       0        0        4     2         ./src/smc_gen/general/r_cg_vect_table.o:(.vec)
+       0        0        4     1                 _HardwareVectors
+       4        4       7c     2 .vects
+       4        4       7c     2         ./src/smc_gen/general/r_cg_vect_table.o:(.vects)
+       4        4       7c     1                 _Vectors
+      80       80        0     2 .callt0
+      80       80        0     1         . = ALIGN ( 2 )
+      c0       c0        4     1 .option_byte
+      c0       c0        4     1         ./src/smc_gen/general/r_cg_vect_table.o:(.option_bytes)
+      c0       c0        4     1                 _Option_Bytes
+      c4       c4        a     1 .security_id
+      c4       c4        a     1         ./src/smc_gen/general/r_cg_vect_table.o:(.security_id)
+      c4       c4        a     1                 _Security_Id
+      d8       d8        0     2 .lowtext
+      d8       d8        0     2         <internal>:(.lowtext)
+      d8       d8        0     1 __mdata = .
+     53e      53e     5bf3     1 .text
+     53e      53e        e     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.text)
+     540      540        0     1                 loop
+     540      540        0     1                 _delay_wait
+     547      547        0     1                 check
+     54b      54b        0     1                 _exit
+     54c      54c       9d     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.text)
+     54c      54c        0     1                 ___dso_handle
+     54c      54c        0     1                 _PowerON_Reset
+     5aa      5aa        0     1                 _exit
+     5ac      5ac        0     1                 _rl78_run_init_array
+     5b7      5b7        0     1                 _rl78_run_fini_array
+     5c0      5c0        0     1                 _rl78_run_inilist
+     5c0      5c0        0     1                 next_inilist
+     5d9      5d9        0     1                 skip_inilist
+     5de      5de        0     1                 done_inilist
+     5df      5df        0     1                 __rl78_init
+     5e4      5e4        0     1                 __rl78_fini
+     5e9      5e9       1f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strstr.o):(.text)
+     5e9      5e9       1f     1                 _strstr
+     608      608        e     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-memset.o):(.text)
+     608      608        e     1                 _memset
+     616      616        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strlen.o):(.text)
+     616      616        b     1                 _strlen
+     621      621       11     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strcmp.o):(.text)
+     621      621       11     1                 _strcmp
+     632      632        d     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strcpy.o):(.text)
+     632      632        d     1                 _strcpy
+     63f      63f       16     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strncmp.o):(.text)
+     63f      63f       16     1                 _strncmp
+     655      655       10     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-memcpy.o):(.text)
+     655      655       10     1                 _memcpy
+     665      665       24     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-memmove.o):(.text)
+     665      665       24     1                 _memmove
+     689      689       54     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_slldiv.S.o):(.text)
+     689      689       54     1                 __COM_slldiv
+     689      689       54     1                 ___divdi3
+     6dd      6dd        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(lshrhi3.S.o):(.text)
+     6dd      6dd        9     1                 ___lshrhi3
+     6e6      6e6        e     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_lshl.S.o):(.text)
+     6e6      6e6        e     1                 __COM_lshl
+     6e6      6e6        e     1                 ___ashlsi3
+     6f4      6f4       20     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(REL_llrev.S.o):(.text)
+     6f4      6f4       20     1                 __REL_llrev
+     714      714       2a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_ulldiv.S.o):(.text)
+     714      714       2a     1                 __COM_ulldiv
+     714      714       2a     1                 ___udivdi3
+     73e      73e      1ff     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(REL_lldiv.S.o):(.text)
+     759      759      1e4     1                 __REL_lldiv
+     93d      93d       49     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_slrem.S.o):(.text)
+     940      940       46     1                 __COM_slrem
+     940      940       46     1                 ___modsi3
+     986      986       38     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_llmul.S.o):(.text)
+     986      986       38     1                 __COM_llmul
+     986      986       38     1                 ___muldi3
+     9be      9be       4f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_mulul.S.o):(.text)
+     9be      9be       4f     1                 __COM_mulul
+     a0d      a0d       12     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(REL_llmul_addh.S.o):(.text)
+     a0d      a0d       12     1                 __REL_llmul_addh
+     a1f      a1f       1f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_sirem.S.o):(.text)
+     a1f      a1f       1f     1                 __COM_sirem
+     a1f      a1f       1f     1                 ___modhi3
+     a3e      a3e       1a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_lmul.S.o):(.text)
+     a3e      a3e       1a     1                 __COM_lmul
+     a3e      a3e       1a     1                 ___mulsi3
+     a58      a58       4e     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_sldiv.S.o):(.text)
+     a5d      a5d       49     1                 __COM_sldiv
+     a5d      a5d       49     1                 ___divsi3
+     aa6      aa6       21     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libclang_rt.builtins.a(COM_sidiv.S.o):(.text)
+     aa8      aa8       1f     1                 __COM_sidiv
+     aa8      aa8       1f     1                 ___divhi3
+     ac7      ac7       68     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.text._get_fclk_freq_hz)
+     ac7      ac7       68     1                 _get_fclk_freq_hz
+     b2f      b2f       62     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.text._mcu_clock_setup)
+     b2f      b2f       62     1                 _mcu_clock_setup
+     b91      b91        3     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.text._R_BSP_GetFclkFreqHz)
+     b91      b91        3     1                 _R_BSP_GetFclkFreqHz
+     b94      b94      297     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.text._R_BSP_SoftwareDelay)
+     b94      b94      297     1                 _R_BSP_SoftwareDelay
+     e2b      e2b        a     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.text._OUTLINED_FUNCTION_0)
+     e2b      e2b        a     1                 _OUTLINED_FUNCTION_0
+     e35      e35        8     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.text._OUTLINED_FUNCTION_1)
+     e35      e35        8     1                 _OUTLINED_FUNCTION_1
+     e3d      e3d        d     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.text._hdwinit)
+     e3d      e3d        d     1                 _hdwinit
+     e4a      e4a        2     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.text._output_ports_configure)
+     e4a      e4a        2     1                 _output_ports_configure
+     e4c      e4c        2     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.text._interrupts_configure)
+     e4c      e4c        2     1                 _interrupts_configure
+     e4e      e4e        3     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.text._peripheral_modules_enable)
+     e4e      e4e        3     1                 _peripheral_modules_enable
+     e51      e51        3     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.text._bsp_init_system)
+     e51      e51        3     1                 _bsp_init_system
+     e54      e54        3     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.text._bsp_init_hardware)
+     e54      e54        3     1                 _bsp_init_hardware
+     e57      e57        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_WDTI)
+     e57      e57        2     1                 _INT_WDTI
+     e59      e59        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_LVI)
+     e59      e59        2     1                 _INT_LVI
+     e5b      e5b        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P0)
+     e5b      e5b        2     1                 _INT_P0
+     e5d      e5d        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P1)
+     e5d      e5d        2     1                 _INT_P1
+     e5f      e5f        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P2)
+     e5f      e5f        2     1                 _INT_P2
+     e61      e61        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P3)
+     e61      e61        2     1                 _INT_P3
+     e63      e63        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P4)
+     e63      e63        2     1                 _INT_P4
+     e65      e65        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P5)
+     e65      e65        2     1                 _INT_P5
+     e67      e67        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_ST2)
+     e67      e67        2     1                 _INT_ST2
+     e69      e69        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_SR2)
+     e69      e69        2     1                 _INT_SR2
+     e6b      e6b        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_SRE2)
+     e6b      e6b        2     1                 _INT_SRE2
+     e6d      e6d        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_SMSE)
+     e6d      e6d        2     1                 _INT_SMSE
+     e6f      e6f        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_ST0)
+     e6f      e6f        2     1                 _INT_ST0
+     e71      e71        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM00)
+     e71      e71        2     1                 _INT_TM00
+     e73      e73        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM01H)
+     e73      e73        2     1                 _INT_TM01H
+     e75      e75        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_IICA0)
+     e75      e75        2     1                 _INT_IICA0
+     e77      e77        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_SR0)
+     e77      e77        2     1                 _INT_SR0
+     e79      e79        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM01)
+     e79      e79        2     1                 _INT_TM01
+     e7b      e7b        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM02)
+     e7b      e7b        2     1                 _INT_TM02
+     e7d      e7d        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM03)
+     e7d      e7d        2     1                 _INT_TM03
+     e7f      e7f        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_AD)
+     e7f      e7f        2     1                 _INT_AD
+     e81      e81        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_ITL)
+     e81      e81        2     1                 _INT_ITL
+     e83      e83        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_KR)
+     e83      e83        2     1                 _INT_KR
+     e85      e85        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM04)
+     e85      e85        2     1                 _INT_TM04
+     e87      e87        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM05)
+     e87      e87        2     1                 _INT_TM05
+     e89      e89        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM06)
+     e89      e89        2     1                 _INT_TM06
+     e8b      e8b        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_TM07)
+     e8b      e8b        2     1                 _INT_TM07
+     e8d      e8d        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P6)
+     e8d      e8d        2     1                 _INT_P6
+     e8f      e8f        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P8)
+     e8f      e8f        2     1                 _INT_P8
+     e91      e91        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_P9)
+     e91      e91        2     1                 _INT_P9
+     e93      e93        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_FL)
+     e93      e93        2     1                 _INT_FL
+     e95      e95        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_URE0)
+     e95      e95        2     1                 _INT_URE0
+     e97      e97        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_CTSUWR)
+     e97      e97        2     1                 _INT_CTSUWR
+     e99      e99        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_CTSURD)
+     e99      e99        2     1                 _INT_CTSURD
+     e9b      e9b        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_CTSUFN)
+     e9b      e9b        2     1                 _INT_CTSUFN
+     e9d      e9d        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_UT0)
+     e9d      e9d        2     1                 _INT_UT0
+     e9f      e9f        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_UR0)
+     e9f      e9f        2     1                 _INT_UR0
+     ea1      ea1        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_BRK_I)
+     ea1      ea1        2     1                 _INT_BRK_I
+     ea3      ea3        2     1         ./src/smc_gen/general/r_cg_inthandler.o:(.text._INT_DUMMY)
+     ea3      ea3        2     1                 _INT_DUMMY
+     ea5      ea5        7     1         ./src/smc_gen/general/r_cg_sau_common.o:(.text._R_SAU0_Create)
+     ea5      ea5        7     1                 _R_SAU0_Create
+     eac      eac       17     1         ./src/smc_gen/general/r_cg_systeminit.o:(.text._R_Systeminit)
+     eac      eac       17     1                 _R_Systeminit
+     ec3      ec3       82     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.text._R_Config_UART1_Create)
+     ec3      ec3       82     1                 _R_Config_UART1_Create
+     f45      f45       1c     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.text._R_Config_UART1_Start)
+     f45      f45       1c     1                 _R_Config_UART1_Start
+     f61      f61       29     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.text._R_Config_UART1_Send)
+     f61      f61       29     1                 _R_Config_UART1_Send
+     f8a      f8a       1d     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.text._R_Config_UART1_Receive)
+     f8a      f8a       1d     1                 _R_Config_UART1_Receive
+     fa7      fa7        b     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.text._OUTLINED_FUNCTION_0)
+     fa7      fa7        b     1                 _OUTLINED_FUNCTION_0
+     fb2      fb2        a     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.text._OUTLINED_FUNCTION_1)
+     fb2      fb2        a     1                 _OUTLINED_FUNCTION_1
+     fbc      fbc        9     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.text._OUTLINED_FUNCTION_2)
+     fbc      fbc        9     1                 _OUTLINED_FUNCTION_2
+     fc5      fc5        9     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._R_Config_UART1_Create_UserInit)
+     fc5      fc5        9     1                 _R_Config_UART1_Create_UserInit
+     fce      fce       1a     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._r_Config_UART1_interrupt_send)
+     fce      fce       1a     1                 _r_Config_UART1_interrupt_send
+     fe8      fe8       3a     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._r_Config_UART1_interrupt_receive)
+     fe8      fe8       3a     1                 _r_Config_UART1_interrupt_receive
+    1022     1022       52     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._r_Config_UART1_callback_receiveend)
+    1022     1022       52     1                 _r_Config_UART1_callback_receiveend
+    1074     1074       15     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._r_Config_UART1_interrupt_error)
+    1074     1074       15     1                 _r_Config_UART1_interrupt_error
+    1089     1089        9     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._isUART1ReceivedLine)
+    1089     1089        9     1                 _isUART1ReceivedLine
+    1092     1092        3     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._UART1_ClearReceiveBuffer)
+    1092     1092        3     1                 _UART1_ClearReceiveBuffer
+    1095     1095        c     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._isUART1SendFinished)
+    1095     1095        c     1                 _isUART1SendFinished
+    10a1     10a1       14     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._OUTLINED_FUNCTION_0)
+    10a1     10a1       14     1                 _OUTLINED_FUNCTION_0
+    10b5     10b5        8     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.text._OUTLINED_FUNCTION_1)
+    10b5     10b5        8     1                 _OUTLINED_FUNCTION_1
+    10bd     10bd       3a     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._R_Config_RTC_Create)
+    10bd     10bd       3a     1                 _R_Config_RTC_Create
+    10f7     10f7        b     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._R_Config_RTC_Start)
+    10f7     10f7        b     1                 _R_Config_RTC_Start
+    1102     1102       8c     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._R_Config_RTC_Set_HourSystem)
+    1102     1102       8c     1                 _R_Config_RTC_Set_HourSystem
+    118e     118e       8f     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._R_Config_RTC_Get_CounterValue)
+    118e     118e       8f     1                 _R_Config_RTC_Get_CounterValue
+    121d     121d       ac     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._R_Config_RTC_Set_CounterValue)
+    121d     121d       ac     1                 _R_Config_RTC_Set_CounterValue
+    12c9     12c9       21     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._R_Config_RTC_Set_ConstPeriodInterruptOn)
+    12c9     12c9       21     1                 _R_Config_RTC_Set_ConstPeriodInterruptOn
+    12ea     12ea        c     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._OUTLINED_FUNCTION_0)
+    12ea     12ea        c     1                 _OUTLINED_FUNCTION_0
+    12f6     12f6        9     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._OUTLINED_FUNCTION_1)
+    12f6     12f6        9     1                 _OUTLINED_FUNCTION_1
+    12ff     12ff       18     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._OUTLINED_FUNCTION_2)
+    12ff     12ff       18     1                 _OUTLINED_FUNCTION_2
+    1317     1317        b     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._OUTLINED_FUNCTION_3)
+    1317     1317        b     1                 _OUTLINED_FUNCTION_3
+    1322     1322        9     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._OUTLINED_FUNCTION_4)
+    1322     1322        9     1                 _OUTLINED_FUNCTION_4
+    132b     132b        b     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._OUTLINED_FUNCTION_5)
+    132b     132b        b     1                 _OUTLINED_FUNCTION_5
+    1336     1336        7     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.text._OUTLINED_FUNCTION_6)
+    1336     1336        7     1                 _OUTLINED_FUNCTION_6
+    133d     133d        4     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.text._R_Config_RTC_Create_UserInit)
+    133d     133d        4     1                 _R_Config_RTC_Create_UserInit
+    1341     1341       26     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.text._r_Config_RTC_interrupt)
+    1341     1341       26     1                 _r_Config_RTC_interrupt
+    1367     1367        3     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.text._r_Config_RTC_callback_constperiod)
+    1367     1367        3     1                 _r_Config_RTC_callback_constperiod
+    136a     136a       aa     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.text._R_Config_RTC_Set_CounterValue_TM)
+    136a     136a       aa     1                 _R_Config_RTC_Set_CounterValue_TM
+    1414     1414       6a     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.text._ProcessPerOneSecond_OnInterruptVec)
+    1414     1414       6a     1                 _ProcessPerOneSecond_OnInterruptVec
+    147e     147e       1b     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.text._OUTLINED_FUNCTION_0)
+    147e     147e       1b     1                 _OUTLINED_FUNCTION_0
+    1499     1499        f     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.text._OUTLINED_FUNCTION_1)
+    1499     1499        f     1                 _OUTLINED_FUNCTION_1
+    14a8     14a8       33     1         ./src/smc_gen/Config_PORT/Config_PORT.o:(.text._R_Config_PORT_Create)
+    14a8     14a8       33     1                 _R_Config_PORT_Create
+    14db     14db        1     1         ./src/smc_gen/Config_PORT/Config_PORT_user.o:(.text._R_Config_PORT_Create_UserInit)
+    14db     14db        1     1                 _R_Config_PORT_Create_UserInit
+    14dc     14dc       2f     1         ./src/VFD.o:(.text._VFD_Init)
+    14dc     14dc       2f     1                 _VFD_Init
+    150b     150b       8d     1         ./src/VFD.o:(.text._VFD_SendCommands)
+    150b     150b       8d     1                 _VFD_SendCommands
+    1598     1598       3b     1         ./src/VFD.o:(.text._VFD_Display8Characters)
+    1598     1598       3b     1                 _VFD_Display8Characters
+    15d3     15d3       11     1         ./src/VFD.o:(.text._VFD_Reset)
+    15d3     15d3       11     1                 _VFD_Reset
+    15e4     15e4        4     1         ./src/VFD.o:(.text._CS_Low)
+    15e4     15e4        4     1                 _CS_Low
+    15e8     15e8        4     1         ./src/VFD.o:(.text._CS_High)
+    15e8     15e8        4     1                 _CS_High
+    15ec     15ec       49     1         ./src/test2_1.o:(.text.__Z19ProcessPerOneSecondv)
+    15ec     15ec       49     1                 ProcessPerOneSecond()
+    1635     1635       83     1         ./src/test2_1.o:(.text.__ZL12ESP8266_Initv)
+    1635     1635       83     1                 ESP8266_Init()
+    16b8     16b8       62     1         ./src/test2_1.o:(.text.__ZL29AccessSNTPServerAndRefreshRTCv)
+    16b8     16b8       62     1                 AccessSNTPServerAndRefreshRTC()
+    171a     171a       3e     1         ./src/test2_1.o:(.text._main)
+    171a     171a       3e     1                 _main
+    1758     1758       39     1         ./src/test2_1.o:(.text.__ZL39ESP8266_ReceiveResponseAndCheckEqualityPhb)
+    1758     1758       39     1                 ESP8266_ReceiveResponseAndCheckEquality(unsigned char*, bool)
+    1791     1791       7d     1         ./src/test2_1.o:(.text.__ZL31ESP8266_SendAndReceiveATCommandPhb)
+    1791     1791       7d     1                 ESP8266_SendAndReceiveATCommand(unsigned char*, bool)
+    180e     180e        3     1         ./src/test2_1.o:(.text.__Z6strstrB7v170001Ua9enable_ifILb1EEPcPKc)
+    180e     180e        3     1                 strstr[abi:v170001](char*, char const*) [enable_if:true]
+    1811     1811        b     1         ./src/test2_1.o:(.text._OUTLINED_FUNCTION_0)
+    1811     1811        b     1                 _OUTLINED_FUNCTION_0
+    181c     181c        b     1         ./src/test2_1.o:(.text._OUTLINED_FUNCTION_1)
+    181c     181c        b     1                 _OUTLINED_FUNCTION_1
+    1827     1827        7     1         ./src/test2_1.o:(.text._OUTLINED_FUNCTION_2)
+    1827     1827        7     1                 _OUTLINED_FUNCTION_2
+    182e     182e        8     1         ./src/test2_1.o:(.text._OUTLINED_FUNCTION_3)
+    182e     182e        8     1                 _OUTLINED_FUNCTION_3
+    1836     1836      7bb     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._strptime_l)
+    1836     1836      7bb     1                 _strptime_l
+    1ff1     1ff1       62     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._match_string)
+    1ff1     1ff1       62     1                 _match_string
+    2053     2053       2b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._set_week_number_sun)
+    2053     2053       2b     1                 _set_week_number_sun
+    207e     207e       49     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._set_week_number_mon4)
+    207e     207e       49     1                 _set_week_number_mon4
+    20c7     20c7       55     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._set_week_number_mon)
+    20c7     20c7       55     1                 _set_week_number_mon
+    211c     211c       33     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._is_leap_year)
+    211c     211c       33     1                 _is_leap_year
+    214f     214f       33     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._first_day)
+    214f     214f       33     1                 _first_day
+    2182     2182        d     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._strptime)
+    2182     2182        d     1                 _strptime
+    218f     218f        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_0)
+    218f     218f        a     1                 _OUTLINED_FUNCTION_0
+    2199     2199        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_1)
+    2199     2199        8     1                 _OUTLINED_FUNCTION_1
+    21a1     21a1        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_2)
+    21a1     21a1        a     1                 _OUTLINED_FUNCTION_2
+    21ab     21ab        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_3)
+    21ab     21ab        a     1                 _OUTLINED_FUNCTION_3
+    21b5     21b5        f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_4)
+    21b5     21b5        f     1                 _OUTLINED_FUNCTION_4
+    21c4     21c4        e     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_5)
+    21c4     21c4        e     1                 _OUTLINED_FUNCTION_5
+    21d2     21d2        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_6)
+    21d2     21d2        6     1                 _OUTLINED_FUNCTION_6
+    21d8     21d8        d     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_7)
+    21d8     21d8        d     1                 _OUTLINED_FUNCTION_7
+    21e5     21e5        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_8)
+    21e5     21e5        8     1                 _OUTLINED_FUNCTION_8
+    21ed     21ed        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_9)
+    21ed     21ed        6     1                 _OUTLINED_FUNCTION_9
+    21f3     21f3        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_10)
+    21f3     21f3        a     1                 _OUTLINED_FUNCTION_10
+    21fd     21fd        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_11)
+    21fd     21fd        7     1                 _OUTLINED_FUNCTION_11
+    2204     2204        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.text._OUTLINED_FUNCTION_12)
+    2204     2204        a     1                 _OUTLINED_FUNCTION_12
+    220e     220e       18     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text.__strtoll_r)
+    220e     220e       18     1                 __strtoll_r
+    2226     2226      30b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text.__strtoll_l)
+    2226     2226      30b     1                 __strtoll_l
+    2531     2531        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._strtoll_l)
+    2531     2531        8     1                 _strtoll_l
+    2539     2539       20     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_0)
+    2539     2539       20     1                 _OUTLINED_FUNCTION_0
+    2559     2559       17     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_1)
+    2559     2559       17     1                 _OUTLINED_FUNCTION_1
+    2570     2570       17     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_2)
+    2570     2570       17     1                 _OUTLINED_FUNCTION_2
+    2587     2587        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_3)
+    2587     2587        8     1                 _OUTLINED_FUNCTION_3
+    258f     258f        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_4)
+    258f     258f        c     1                 _OUTLINED_FUNCTION_4
+    259b     259b        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_5)
+    259b     259b        7     1                 _OUTLINED_FUNCTION_5
+    25a2     25a2        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_6)
+    25a2     25a2        7     1                 _OUTLINED_FUNCTION_6
+    25a9     25a9        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_7)
+    25a9     25a9        9     1                 _OUTLINED_FUNCTION_7
+    25b2     25b2        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoll.o):(.text._OUTLINED_FUNCTION_8)
+    25b2     25b2        9     1                 _OUTLINED_FUNCTION_8
+    25bb     25bb        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-locale.o):(.text.___locale_mb_cur_max)
+    25bb     25bb        6     1                 ___locale_mb_cur_max
+    25c1     25c1       28     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mbtowc_r.o):(.text.___ascii_mbtowc)
+    25c1     25c1       28     1                 ___ascii_mbtowc
+    25e9     25e9      3b2     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._localtime_r)
+    25e9     25e9      3b2     1                 _localtime_r
+    299b     299b       22     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_0)
+    299b     299b       22     1                 _OUTLINED_FUNCTION_0
+    29bd     29bd       1d     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_1)
+    29bd     29bd       1d     1                 _OUTLINED_FUNCTION_1
+    29da     29da       11     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_2)
+    29da     29da       11     1                 _OUTLINED_FUNCTION_2
+    29eb     29eb        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_3)
+    29eb     29eb        7     1                 _OUTLINED_FUNCTION_3
+    29f2     29f2       10     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_4)
+    29f2     29f2       10     1                 _OUTLINED_FUNCTION_4
+    2a02     2a02        5     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_5)
+    2a02     2a02        5     1                 _OUTLINED_FUNCTION_5
+    2a07     2a07        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_6)
+    2a07     2a07        a     1                 _OUTLINED_FUNCTION_6
+    2a11     2a11        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_7)
+    2a11     2a11        9     1                 _OUTLINED_FUNCTION_7
+    2a1a     2a1a        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_8)
+    2a1a     2a1a        9     1                 _OUTLINED_FUNCTION_8
+    2a23     2a23        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-lcltime_r.o):(.text._OUTLINED_FUNCTION_9)
+    2a23     2a23        7     1                 _OUTLINED_FUNCTION_9
+    2a2a     2a2a        4     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-gettzinfo.o):(.text.___gettzinfo)
+    2a2a     2a2a        4     1                 ___gettzinfo
+    2a2e     2a2e      276     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-gmtime_r.o):(.text._gmtime_r)
+    2a2e     2a2e      276     1                 _gmtime_r
+    2ca4     2ca4        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-gmtime_r.o):(.text._OUTLINED_FUNCTION_0)
+    2ca4     2ca4        c     1                 _OUTLINED_FUNCTION_0
+    2cb0     2cb0        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-gmtime_r.o):(.text._OUTLINED_FUNCTION_1)
+    2cb0     2cb0        9     1                 _OUTLINED_FUNCTION_1
+    2cb9     2cb9        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-gmtime_r.o):(.text._OUTLINED_FUNCTION_2)
+    2cb9     2cb9        9     1                 _OUTLINED_FUNCTION_2
+    2cc2     2cc2        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-gmtime_r.o):(.text._OUTLINED_FUNCTION_3)
+    2cc2     2cc2        8     1                 _OUTLINED_FUNCTION_3
+    2cca     2cca        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset.o):(.text.__tzset_unlocked)
+    2cca     2cca        6     1                 __tzset_unlocked
+    2cd0     2cd0      25f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzcalc_limits.o):(.text.___tzcalc_limits)
+    2cd0     2cd0      25f     1                 ___tzcalc_limits
+    2f2f     2f2f        f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzcalc_limits.o):(.text._OUTLINED_FUNCTION_0)
+    2f2f     2f2f        f     1                 _OUTLINED_FUNCTION_0
+    2f3e     2f3e       15     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzcalc_limits.o):(.text._OUTLINED_FUNCTION_1)
+    2f3e     2f3e       15     1                 _OUTLINED_FUNCTION_1
+    2f53     2f53       11     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzcalc_limits.o):(.text._OUTLINED_FUNCTION_2)
+    2f53     2f53       11     1                 _OUTLINED_FUNCTION_2
+    2f64     2f64        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzcalc_limits.o):(.text._OUTLINED_FUNCTION_3)
+    2f64     2f64        a     1                 _OUTLINED_FUNCTION_3
+    2f6e     2f6e        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzcalc_limits.o):(.text._OUTLINED_FUNCTION_4)
+    2f6e     2f6e        a     1                 _OUTLINED_FUNCTION_4
+    2f78     2f78        4     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-errno.o):(.text.___errno)
+    2f78     2f78        4     1                 ___errno
+    2f7c     2f7c       59     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strncasecmp_l.o):(.text._strncasecmp_l)
+    2f7c     2f7c       59     1                 _strncasecmp_l
+    2fd5     2fd5        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtol.o):(.text.__strtol_r)
+    2fd5     2fd5        c     1                 __strtol_r
+    2fe1     2fe1      225     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtol.o):(.text.__strtol_l)
+    2fe1     2fe1      225     1                 __strtol_l
+    3206     3206       17     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtol.o):(.text._strtol_l)
+    3206     3206       17     1                 _strtol_l
+    321d     321d        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtol.o):(.text._OUTLINED_FUNCTION_0)
+    321d     321d        9     1                 _OUTLINED_FUNCTION_0
+    3226     3226       1e     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-wctomb_r.o):(.text.___ascii_wctomb)
+    3226     3226       1e     1                 ___ascii_wctomb
+    3244     3244        1     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzlock.o):(.text.___tz_lock)
+    3244     3244        1     1                 ___tz_lock
+    3245     3245        1     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzlock.o):(.text.___tz_unlock)
+    3245     3245        1     1                 ___tz_unlock
+    3246     3246       18     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tolower_l.o):(.text._tolower_l)
+    3246     3246       18     1                 _tolower_l
+    325e     325e      3eb     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text.__tzset_unlocked_r)
+    325e     325e      3eb     1                 __tzset_unlocked_r
+    3649     3649       20     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_0)
+    3649     3649       20     1                 _OUTLINED_FUNCTION_0
+    3669     3669        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_1)
+    3669     3669        a     1                 _OUTLINED_FUNCTION_1
+    3673     3673        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_2)
+    3673     3673        a     1                 _OUTLINED_FUNCTION_2
+    367d     367d        f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_3)
+    367d     367d        f     1                 _OUTLINED_FUNCTION_3
+    368c     368c        f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_4)
+    368c     368c        f     1                 _OUTLINED_FUNCTION_4
+    369b     369b        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_5)
+    369b     369b        9     1                 _OUTLINED_FUNCTION_5
+    36a4     36a4        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_6)
+    36a4     36a4        c     1                 _OUTLINED_FUNCTION_6
+    36b0     36b0        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_7)
+    36b0     36b0        c     1                 _OUTLINED_FUNCTION_7
+    36bc     36bc        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_8)
+    36bc     36bc        c     1                 _OUTLINED_FUNCTION_8
+    36c8     36c8        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_9)
+    36c8     36c8        b     1                 _OUTLINED_FUNCTION_9
+    36d3     36d3        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_10)
+    36d3     36d3        7     1                 _OUTLINED_FUNCTION_10
+    36da     36da        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_11)
+    36da     36da        a     1                 _OUTLINED_FUNCTION_11
+    36e4     36e4        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_12)
+    36e4     36e4        9     1                 _OUTLINED_FUNCTION_12
+    36ed     36ed        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_13)
+    36ed     36ed        6     1                 _OUTLINED_FUNCTION_13
+    36f3     36f3        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_14)
+    36f3     36f3        6     1                 _OUTLINED_FUNCTION_14
+    36f9     36f9        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_15)
+    36f9     36f9        7     1                 _OUTLINED_FUNCTION_15
+    3700     3700        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.text._OUTLINED_FUNCTION_16)
+    3700     3700        6     1                 _OUTLINED_FUNCTION_16
+    3706     3706       7f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-getenv_r.o):(.text.__findenv_r)
+    3706     3706       7f     1                 __findenv_r
+    3785     3785        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-getenv_r.o):(.text.__getenv_r)
+    3785     3785        b     1                 __getenv_r
+    3790     3790        1     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-envlock.o):(.text.___env_lock)
+    3790     3790        1     1                 ___env_lock
+    3791     3791        1     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-envlock.o):(.text.___env_unlock)
+    3791     3791        1     1                 ___env_unlock
+    3792     3792      430     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text.__malloc_r)
+    3792     3792      430     1                 __malloc_r
+    3bc2     3bc2      19b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._malloc_extend_top)
+    3bc2     3bc2      19b     1                 _malloc_extend_top
+    3d5d     3d5d       13     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_0)
+    3d5d     3d5d       13     1                 _OUTLINED_FUNCTION_0
+    3d70     3d70       12     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_1)
+    3d70     3d70       12     1                 _OUTLINED_FUNCTION_1
+    3d82     3d82        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_2)
+    3d82     3d82        a     1                 _OUTLINED_FUNCTION_2
+    3d8c     3d8c        e     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_3)
+    3d8c     3d8c        e     1                 _OUTLINED_FUNCTION_3
+    3d9a     3d9a        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_4)
+    3d9a     3d9a        c     1                 _OUTLINED_FUNCTION_4
+    3da6     3da6        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_5)
+    3da6     3da6        c     1                 _OUTLINED_FUNCTION_5
+    3db2     3db2        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_6)
+    3db2     3db2        c     1                 _OUTLINED_FUNCTION_6
+    3dbe     3dbe        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_7)
+    3dbe     3dbe        a     1                 _OUTLINED_FUNCTION_7
+    3dc8     3dc8        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_8)
+    3dc8     3dc8        6     1                 _OUTLINED_FUNCTION_8
+    3dce     3dce        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_9)
+    3dce     3dce        7     1                 _OUTLINED_FUNCTION_9
+    3dd5     3dd5        5     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_10)
+    3dd5     3dd5        5     1                 _OUTLINED_FUNCTION_10
+    3dda     3dda        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_11)
+    3dda     3dda        9     1                 _OUTLINED_FUNCTION_11
+    3de3     3de3        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_12)
+    3de3     3de3        8     1                 _OUTLINED_FUNCTION_12
+    3deb     3deb        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_13)
+    3deb     3deb        8     1                 _OUTLINED_FUNCTION_13
+    3df3     3df3        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_14)
+    3df3     3df3        8     1                 _OUTLINED_FUNCTION_14
+    3dfb     3dfb        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.text._OUTLINED_FUNCTION_15)
+    3dfb     3dfb        8     1                 _OUTLINED_FUNCTION_15
+    3e03     3e03        1     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mlock.o):(.text.___malloc_lock)
+    3e03     3e03        1     1                 ___malloc_lock
+    3e04     3e04        1     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mlock.o):(.text.___malloc_unlock)
+    3e04     3e04        1     1                 ___malloc_unlock
+    3e05     3e05       21     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-sbrkr.o):(.text.__sbrk_r)
+    3e05     3e05       21     1                 __sbrk_r
+    3e26     3e26       14     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libnosys.a(sbrk.o):(.text._sbrk)
+    3e26     3e26       14     1                 _sbrk
+    3e3a     3e3a      245     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-freer.o):(.text.__free_r)
+    3e3a     3e3a      245     1                 __free_r
+    407f     407f       bd     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-freer.o):(.text.__malloc_trim_r)
+    407f     407f       bd     1                 __malloc_trim_r
+    413c     413c        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-freer.o):(.text._OUTLINED_FUNCTION_0)
+    413c     413c        7     1                 _OUTLINED_FUNCTION_0
+    4143     4143        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-freer.o):(.text._OUTLINED_FUNCTION_1)
+    4143     4143        c     1                 _OUTLINED_FUNCTION_1
+    414f     414f       29     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-siscanf.o):(.text._siscanf)
+    414f     414f       29     1                 _siscanf
+    4178     4178       14     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-siscanf.o):(.text._OUTLINED_FUNCTION_0)
+    4178     4178       14     1                 _OUTLINED_FUNCTION_0
+    418c     418c        f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-siscanf.o):(.text._OUTLINED_FUNCTION_1)
+    418c     418c        f     1                 _OUTLINED_FUNCTION_1
+    419b     419b        2     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-stdio.o):(.text.___seofread)
+    419b     419b        2     1                 ___seofread
+    419d     419d        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoul.o):(.text.__strtoul_r)
+    419d     419d        c     1                 __strtoul_r
+    41a9     41a9      1da     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoul.o):(.text.__strtoul_l)
+    41a9     41a9      1da     1                 __strtoul_l
+    4383     4383       17     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoul.o):(.text._strtoul)
+    4383     4383       17     1                 _strtoul
+    439a     439a        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoul.o):(.text._OUTLINED_FUNCTION_0)
+    439a     439a        9     1                 _OUTLINED_FUNCTION_0
+    43a3     43a3        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoul.o):(.text._OUTLINED_FUNCTION_1)
+    43a3     43a3        8     1                 _OUTLINED_FUNCTION_1
+    43ab     43ab        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-malloc.o):(.text._malloc)
+    43ab     43ab        7     1                 _malloc
+    43b2     43b2        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-malloc.o):(.text._free)
+    43b2     43b2        7     1                 _free
+    43b9     43b9       a6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text.__sungetc_r)
+    43b9     43b9       a6     1                 __sungetc_r
+    445f     445f       43     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text.___ssrefill_r)
+    445f     445f       43     1                 ___ssrefill_r
+    44a2     44a2       9e     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text.__sfread_r)
+    44a2     44a2       9e     1                 __sfread_r
+    4540     4540      ee2     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text.___ssvfiscanf_r)
+    4540     4540      ee2     1                 ___ssvfiscanf_r
+    5422     5422       4a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text.___wctob)
+    5422     5422       4a     1                 ___wctob
+    546c     546c        d     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_0)
+    546c     546c        d     1                 _OUTLINED_FUNCTION_0
+    5479     5479       16     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_1)
+    5479     5479       16     1                 _OUTLINED_FUNCTION_1
+    548f     548f       13     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_2)
+    548f     548f       13     1                 _OUTLINED_FUNCTION_2
+    54a2     54a2        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_3)
+    54a2     54a2        8     1                 _OUTLINED_FUNCTION_3
+    54aa     54aa        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_4)
+    54aa     54aa        c     1                 _OUTLINED_FUNCTION_4
+    54b6     54b6       1f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_5)
+    54b6     54b6       1f     1                 _OUTLINED_FUNCTION_5
+    54d5     54d5       11     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_6)
+    54d5     54d5       11     1                 _OUTLINED_FUNCTION_6
+    54e6     54e6        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_7)
+    54e6     54e6        8     1                 _OUTLINED_FUNCTION_7
+    54ee     54ee       1b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_8)
+    54ee     54ee       1b     1                 _OUTLINED_FUNCTION_8
+    5509     5509       1a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_9)
+    5509     5509       1a     1                 _OUTLINED_FUNCTION_9
+    5523     5523       1a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_10)
+    5523     5523       1a     1                 _OUTLINED_FUNCTION_10
+    553d     553d       18     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_11)
+    553d     553d       18     1                 _OUTLINED_FUNCTION_11
+    5555     5555        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_12)
+    5555     5555        a     1                 _OUTLINED_FUNCTION_12
+    555f     555f        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_13)
+    555f     555f        c     1                 _OUTLINED_FUNCTION_13
+    556b     556b        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_14)
+    556b     556b        7     1                 _OUTLINED_FUNCTION_14
+    5572     5572       14     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_15)
+    5572     5572       14     1                 _OUTLINED_FUNCTION_15
+    5586     5586        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_16)
+    5586     5586        7     1                 _OUTLINED_FUNCTION_16
+    558d     558d        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_17)
+    558d     558d        a     1                 _OUTLINED_FUNCTION_17
+    5597     5597       10     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_18)
+    5597     5597       10     1                 _OUTLINED_FUNCTION_18
+    55a7     55a7       10     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_19)
+    55a7     55a7       10     1                 _OUTLINED_FUNCTION_19
+    55b7     55b7        f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_20)
+    55b7     55b7        f     1                 _OUTLINED_FUNCTION_20
+    55c6     55c6        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_21)
+    55c6     55c6        a     1                 _OUTLINED_FUNCTION_21
+    55d0     55d0       10     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_22)
+    55d0     55d0       10     1                 _OUTLINED_FUNCTION_22
+    55e0     55e0        f     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_23)
+    55e0     55e0        f     1                 _OUTLINED_FUNCTION_23
+    55ef     55ef        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_24)
+    55ef     55ef        9     1                 _OUTLINED_FUNCTION_24
+    55f8     55f8        e     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_25)
+    55f8     55f8        e     1                 _OUTLINED_FUNCTION_25
+    5606     5606        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_26)
+    5606     5606        9     1                 _OUTLINED_FUNCTION_26
+    560f     560f        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_27)
+    560f     560f        6     1                 _OUTLINED_FUNCTION_27
+    5615     5615        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_28)
+    5615     5615        6     1                 _OUTLINED_FUNCTION_28
+    561b     561b        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_29)
+    561b     561b        6     1                 _OUTLINED_FUNCTION_29
+    5621     5621        d     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_30)
+    5621     5621        d     1                 _OUTLINED_FUNCTION_30
+    562e     562e        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_31)
+    562e     562e        7     1                 _OUTLINED_FUNCTION_31
+    5635     5635        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_32)
+    5635     5635        6     1                 _OUTLINED_FUNCTION_32
+    563b     563b        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_33)
+    563b     563b        c     1                 _OUTLINED_FUNCTION_33
+    5647     5647        5     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_34)
+    5647     5647        5     1                 _OUTLINED_FUNCTION_34
+    564c     564c        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_35)
+    564c     564c        b     1                 _OUTLINED_FUNCTION_35
+    5657     5657        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_36)
+    5657     5657        b     1                 _OUTLINED_FUNCTION_36
+    5662     5662        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_37)
+    5662     5662        b     1                 _OUTLINED_FUNCTION_37
+    566d     566d        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_38)
+    566d     566d        a     1                 _OUTLINED_FUNCTION_38
+    5677     5677        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_39)
+    5677     5677        a     1                 _OUTLINED_FUNCTION_39
+    5681     5681        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_40)
+    5681     5681        7     1                 _OUTLINED_FUNCTION_40
+    5688     5688        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_41)
+    5688     5688        a     1                 _OUTLINED_FUNCTION_41
+    5692     5692        5     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_42)
+    5692     5692        5     1                 _OUTLINED_FUNCTION_42
+    5697     5697        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_43)
+    5697     5697        a     1                 _OUTLINED_FUNCTION_43
+    56a1     56a1        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_44)
+    56a1     56a1        a     1                 _OUTLINED_FUNCTION_44
+    56ab     56ab        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_45)
+    56ab     56ab        a     1                 _OUTLINED_FUNCTION_45
+    56b5     56b5        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_46)
+    56b5     56b5        9     1                 _OUTLINED_FUNCTION_46
+    56be     56be        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_47)
+    56be     56be        9     1                 _OUTLINED_FUNCTION_47
+    56c7     56c7        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_48)
+    56c7     56c7        9     1                 _OUTLINED_FUNCTION_48
+    56d0     56d0        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_49)
+    56d0     56d0        8     1                 _OUTLINED_FUNCTION_49
+    56d8     56d8        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_50)
+    56d8     56d8        8     1                 _OUTLINED_FUNCTION_50
+    56e0     56e0        5     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_51)
+    56e0     56e0        5     1                 _OUTLINED_FUNCTION_51
+    56e5     56e5        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_52)
+    56e5     56e5        6     1                 _OUTLINED_FUNCTION_52
+    56eb     56eb        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_53)
+    56eb     56eb        8     1                 _OUTLINED_FUNCTION_53
+    56f3     56f3        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_54)
+    56f3     56f3        8     1                 _OUTLINED_FUNCTION_54
+    56fb     56fb        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_55)
+    56fb     56fb        8     1                 _OUTLINED_FUNCTION_55
+    5703     5703        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_56)
+    5703     5703        6     1                 _OUTLINED_FUNCTION_56
+    5709     5709        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_57)
+    5709     5709        6     1                 _OUTLINED_FUNCTION_57
+    570f     570f        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_58)
+    570f     570f        7     1                 _OUTLINED_FUNCTION_58
+    5716     5716        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.text._OUTLINED_FUNCTION_59)
+    5716     5716        8     1                 _OUTLINED_FUNCTION_59
+    571e     571e       8d     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-ungetc.o):(.text.___submore)
+    571e     571e       8d     1                 ___submore
+    57ab     57ab      44c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text.__realloc_r)
+    57ab     57ab      44c     1                 __realloc_r
+    5bf7     5bf7       10     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_0)
+    5bf7     5bf7       10     1                 _OUTLINED_FUNCTION_0
+    5c07     5c07        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_1)
+    5c07     5c07        9     1                 _OUTLINED_FUNCTION_1
+    5c10     5c10        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_2)
+    5c10     5c10        9     1                 _OUTLINED_FUNCTION_2
+    5c19     5c19        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_3)
+    5c19     5c19        c     1                 _OUTLINED_FUNCTION_3
+    5c25     5c25        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_4)
+    5c25     5c25        b     1                 _OUTLINED_FUNCTION_4
+    5c30     5c30        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_5)
+    5c30     5c30        7     1                 _OUTLINED_FUNCTION_5
+    5c37     5c37        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_6)
+    5c37     5c37        a     1                 _OUTLINED_FUNCTION_6
+    5c41     5c41        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_7)
+    5c41     5c41        a     1                 _OUTLINED_FUNCTION_7
+    5c4b     5c4b        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_8)
+    5c4b     5c4b        9     1                 _OUTLINED_FUNCTION_8
+    5c54     5c54        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_9)
+    5c54     5c54        8     1                 _OUTLINED_FUNCTION_9
+    5c5c     5c5c        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_10)
+    5c5c     5c5c        8     1                 _OUTLINED_FUNCTION_10
+    5c64     5c64        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_11)
+    5c64     5c64        8     1                 _OUTLINED_FUNCTION_11
+    5c6c     5c6c        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_12)
+    5c6c     5c6c        6     1                 _OUTLINED_FUNCTION_12
+    5c72     5c72        6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-reallocr.o):(.text._OUTLINED_FUNCTION_13)
+    5c72     5c72        6     1                 _OUTLINED_FUNCTION_13
+    5c78     5c78       b6     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-sccl.o):(.text.___sccl)
+    5c78     5c78       b6     1                 ___sccl
+    5d2e     5d2e        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-sccl.o):(.text._OUTLINED_FUNCTION_0)
+    5d2e     5d2e        b     1                 _OUTLINED_FUNCTION_0
+    5d39     5d39        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-sccl.o):(.text._OUTLINED_FUNCTION_1)
+    5d39     5d39        8     1                 _OUTLINED_FUNCTION_1
+    5d41     5d41       5b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mbrtowc.o):(.text.__mbrtowc_r)
+    5d41     5d41       5b     1                 __mbrtowc_r
+    5d9c     5d9c        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-realloc.o):(.text._realloc)
+    5d9c     5d9c        9     1                 _realloc
+    5da5     5da5        4     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-iswspace.o):(.text._iswspace)
+    5da5     5da5        4     1                 _iswspace
+    5da9     5da9       14     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-iswspace_l.o):(.text._iswspace_l)
+    5da9     5da9       14     1                 _iswspace_l
+    5dbd     5dbd       18     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text.__strtoull_r)
+    5dbd     5dbd       18     1                 __strtoull_r
+    5dd5     5dd5      2fd     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text.__strtoull_l)
+    5dd5     5dd5      2fd     1                 __strtoull_l
+    60d2     60d2       17     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text._OUTLINED_FUNCTION_1)
+    60d2     60d2       17     1                 _OUTLINED_FUNCTION_1
+    60e9     60e9       12     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text._OUTLINED_FUNCTION_2)
+    60e9     60e9       12     1                 _OUTLINED_FUNCTION_2
+    60fb     60fb        8     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text._OUTLINED_FUNCTION_3)
+    60fb     60fb        8     1                 _OUTLINED_FUNCTION_3
+    6103     6103        b     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text._OUTLINED_FUNCTION_4)
+    6103     6103        b     1                 _OUTLINED_FUNCTION_4
+    610e     610e        7     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text._OUTLINED_FUNCTION_5)
+    610e     610e        7     1                 _OUTLINED_FUNCTION_5
+    6115     6115        a     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text._OUTLINED_FUNCTION_6)
+    6115     6115        a     1                 _OUTLINED_FUNCTION_6
+    611f     611f        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text._OUTLINED_FUNCTION_7)
+    611f     611f        9     1                 _OUTLINED_FUNCTION_7
+    6128     6128        9     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strtoull.o):(.text._OUTLINED_FUNCTION_8)
+    6128     6128        9     1                 _OUTLINED_FUNCTION_8
+    6131     6131        0     1 PROVIDE ( __rodata_limit = CONSTANT ( MIRRORAREASTART ) + 0x2000 + LENGTH ( MIRROR ) )
+    6132     6132      62c     2 .rodata
+    6132     6132        0     1         . = ALIGN ( 2 )
+    6132     6132        0     1         __rodata = .
+    6132     6132       40     2         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.rodata._g_fih_hz)
+    6132     6132       40     1                 _g_fih_hz
+    6172     6172       10     2         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.rodata._g_fim_hz)
+    6172     6172       10     1                 _g_fim_hz
+    6182     6182       18     2         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.rodata._g_bsp_delay_time)
+    6182     6182       18     1                 _g_bsp_delay_time
+    619a     619a      243     1         <internal>:(.rodata.str1.1)
+    63de     63de       18     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-strptime.o):(.rodata.__DAYS_BEFORE_MONTH)
+    63de     63de       18     1                 __DAYS_BEFORE_MONTH
+    63f6     63f6       7e     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-timelocal.o):(.rodata.__C_time_locale)
+    63f6     63f6       7e     1                 __C_time_locale
+    6474     6474      180     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-ctype_.o):(.rodata.__ctype_b)
+    6474     6474      180     1                 __ctype_b
+    65f4     65f4      101     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-ctype_.o):(.rodata.__ctype_)
+    65f4     65f4      101     1                 __ctype_
+    66f6     66f6       30     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-month_lengths.o):(.rodata.___month_lengths)
+    66f6     66f6       30     1                 ___month_lengths
+    6726     6726       16     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.rodata.L___const._tzset_unlocked_r.default_tzrule)
+    6726     6726       16     1                 L___const._tzset_unlocked_r.default_tzrule
+    673c     673c       22     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-svfiscanf.o):(.rodata.___ssvfiscanf_r.basefix)
+    673c     673c       22     1                 ___ssvfiscanf_r.basefix
+    675e     675e        0     1         . = ALIGN ( 2 )
+    675e     675e        0     1         . = ALIGN ( 2 )
+    675e     675e        0     1         PROVIDE ( __init_array_start = . )
+    675e     675e        0     1         PROVIDE ( __init_array_end = . )
+    675e     675e        0     1         PROVIDE ( __fini_array_start = . )
+    675e     675e        0     1         PROVIDE ( __fini_array_end = . )
+    675e     675e        0     1         __erodata = .
+    675e     675e        0     1         
+    675e     675e        0     1         
+    675e     675e        0     2 .frodata
+    675e     675e        0     1         . = ALIGN ( 2 )
+    675e     675e        0     1         __frodata = .
+    675e     675e        0     1         __efrodata = .
+    675e     675e        0     1         . = ALIGN ( 2 )
+    675e     675e        0     1         __constf = .
+    675e     675e        0     1         __econstf = .
+   fef00       d8      466     2 .data
+   fef00       d8        0     1         . = ALIGN ( 2 )
+   fef00       d8        0     1         PROVIDE ( __datastart = . )
+   fef00       d8        0     1         __data = .
+   fef00       d8      14c     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-locale.o):(.data.___global_locale)
+   fef00       d8      14c     1                 ___global_locale
+   ff04c      224       30     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-gettzinfo.o):(.data._tzinfo)
+   ff04c      224       30     1                 _tzinfo
+   ff07c      254        4     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzvars.o):(.data.__tzname)
+   ff07c      254        4     1                 __tzname
+   ff080      258        2     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libnosys.a(environ.o):(.data._environ)
+   ff080      258        2     1                 _environ
+   ff082      25a      208     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.data.___malloc_av_)
+   ff082      25a      208     1                 ___malloc_av_
+   ff28a      462        4     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.data.___malloc_trim_threshold)
+   ff28a      462        4     1                 ___malloc_trim_threshold
+   ff28e      466        4     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.data.___malloc_top_pad)
+   ff28e      466        4     1                 ___malloc_top_pad
+   ff292      46a        2     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.data.___malloc_sbrk_base)
+   ff292      46a        2     1                 ___malloc_sbrk_base
+   ff294      46c       d0     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-impure.o):(.data.__impure_data)
+   ff294      46c       d0     1                 __impure_data
+   ff364      53c        2     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-impure.o):(.data.__impure_ptr)
+   ff364      53c        2     1                 __impure_ptr
+   ff366      53e        0     1         . = ALIGN ( 2 )
+   ff366      53e        0     1         __edata = .
+   ff366      53e        0     1 PROVIDE ( __romdatastart = LOADADDR ( .data ) )
+   ff366      53e        0     1 PROVIDE ( __romdatacopysize = SIZEOF ( .data ) )
+   ff366    ff366        0     2 .dataf
+   ff366    ff366        0     1         . = ALIGN ( 2 )
+   ff366    ff366        0     1         . = ALIGN ( 2 )
+   ff366    ff366        0     1         . = ALIGN ( 2 )
+   ffe20    ffe20        0     2 .sdata
+   ffe20    ffe20        0     1         . = ALIGN ( 2 )
+   ffe20    ffe20        0     1         PROVIDE ( __sdatastart = . )
+   ffe20    ffe20        0     1         . = ALIGN ( 2 )
+   ffe20    ffe20        0     1 PROVIDE ( __romsdatastart = LOADADDR ( .sdata ) )
+   ffe20    ffe20        0     1 PROVIDE ( __romsdatacopysize = SIZEOF ( .sdata ) )
+   ffe20    ffe20        0     2 .saddr
+   ffe20    ffe20        0     1         . = ALIGN ( 2 )
+   ffe20    ffe20        0     1         . = ALIGN ( 2 )
+   ffe20    ffe20        0     2 .sbss
+   ffe20    ffe20        0     1         PROVIDE ( __sbssstart = . )
+   ffe20    ffe20        0     1         . = ALIGN ( 2 )
+   ffe20    ffe20        0     1         __sbss = .
+   ffe20    ffe20        0     1         . = ALIGN ( 2 )
+   ffe20    ffe20        0     1         . = ALIGN ( 2 )
+   ffe20    ffe20        0     1         __esbss = .
+   ffe20    ffe20        0     1 PROVIDE ( __sbsssize = SIZEOF ( .sbss ) )
+   ff366    ff366      210     2 .bss
+   ff366    ff366        0     1         PROVIDE ( __bssstart = . )
+   ff366    ff366        0     1         . = ALIGN ( 2 )
+   ff366    ff366        0     1         __bss = .
+   ff366    ff366        2     2         ./src/smc_gen/Config_UART1/Config_UART1.o:(.bss._gp_uart1_tx_address)
+   ff366    ff366        2     1                 _gp_uart1_tx_address
+   ff368    ff368        2     2         ./src/smc_gen/Config_UART1/Config_UART1.o:(.bss._g_uart1_tx_count)
+   ff368    ff368        2     1                 _g_uart1_tx_count
+   ff36a    ff36a        2     2         ./src/smc_gen/Config_UART1/Config_UART1.o:(.bss._g_uart1_rx_count)
+   ff36a    ff36a        2     1                 _g_uart1_rx_count
+   ff36c    ff36c        2     2         ./src/smc_gen/Config_UART1/Config_UART1.o:(.bss._g_uart1_rx_length)
+   ff36c    ff36c        2     1                 _g_uart1_rx_length
+   ff36e    ff36e        2     2         ./src/smc_gen/Config_UART1/Config_UART1.o:(.bss._gp_uart1_rx_address)
+   ff36e    ff36e        2     1                 _gp_uart1_rx_address
+   ff370    ff370        1     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.bss._UART1_rx_char)
+   ff370    ff370        1     1                 _UART1_rx_char
+   ff371    ff371       80     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.bss._UART1_rx_buf)
+   ff371    ff371       80     1                 _UART1_rx_buf
+   ff3f1    ff3f1        1     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.bss._UART1_rx_buf_cnt)
+   ff3f1    ff3f1        1     1                 _UART1_rx_buf_cnt
+   ff3f2    ff3f2        1     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.bss._UART1_rx_line_rcv_end)
+   ff3f2    ff3f2        1     1                 _UART1_rx_line_rcv_end
+   ff3f3    ff3f3        1     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.bss._UART1_rx_buf_is_full)
+   ff3f3    ff3f3        1     1                 _UART1_rx_buf_is_full
+   ff3f4    ff3f4        1     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.bss._g_rtc_interrupt_flag)
+   ff3f4    ff3f4        1     1                 _g_rtc_interrupt_flag
+   ff3f5    ff3f5        1     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.bss._timeout_cnt)
+   ff3f5    ff3f5        1     1                 _timeout_cnt
+   ff3f6    ff3f6        4     2         ./src/test2_1.o:(.bss.__ZL14sntp_error_cnt)
+   ff3f6    ff3f6        4     1                 sntp_error_cnt
+   ff3fa    ff3fa        1     1         ./src/test2_1.o:(.bss.__ZL25is_last_SNTP_access_error)
+   ff3fa    ff3fa        1     1                 is_last_SNTP_access_error
+   ff3fc    ff3fc        2     2         ./src/test2_1.o:(.bss.__ZL7sec_cnt)
+   ff3fc    ff3fc        2     1                 sec_cnt
+   ff3fe    ff3fe       81     1         ./src/test2_1.o:(.bss.__ZL23AT_command_response_buf)
+   ff3fe    ff3fe       81     1                 AT_command_response_buf
+   ff480    ff480        2     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzvars.o):(.bss.__daylight)
+   ff480    ff480        2     1                 __daylight
+   ff482    ff482        4     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzvars.o):(.bss.__timezone)
+   ff482    ff482        4     1                 __timezone
+   ff486    ff486        2     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.bss._prev_tzenv)
+   ff486    ff486        2     1                 _prev_tzenv
+   ff488    ff488        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.bss.___tzname_std)
+   ff488    ff488        c     1                 ___tzname_std
+   ff494    ff494        c     1         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-tzset_r.o):(.bss.___tzname_dst)
+   ff494    ff494        c     1                 ___tzname_dst
+   ff4a0    ff4a0        2     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libnosys.a(environ.o):(.bss.___env)
+   ff4a0    ff4a0        2     1                 ___env
+   ff4a2    ff4a2        4     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.bss.___malloc_max_sbrked_mem)
+   ff4a2    ff4a2        4     1                 ___malloc_max_sbrked_mem
+   ff4a6    ff4a6        4     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.bss.___malloc_max_total_mem)
+   ff4a6    ff4a6        4     1                 ___malloc_max_total_mem
+   ff4aa    ff4aa       14     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-mallocr.o):(.bss.___malloc_current_mallinfo)
+   ff4aa    ff4aa       14     1                 ___malloc_current_mallinfo
+   ff4be    ff4be        2     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libnosys.a(errno.o):(.bss._errno)
+   ff4be    ff4be        2     1                 _errno
+   ff4c0    ff4c0        2     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libnosys.a(sbrk.o):(.bss._sbrk.heap_end)
+   ff4c0    ff4c0        2     1                 _sbrk.heap_end
+   ff4c2    ff4c2       b4     2         C:\ProgramData\LLVM for Renesas RL78 17.0.1.202506\bin\../lib/clang-runtimes\rl78-unknown-elf/s3_Oz_nc_nd_d32\lib\libc.a(libc_a-findfp.o):(.bss.___sf)
+   ff4c2    ff4c2       b4     1                 ___sf
+   ff576    ff576        0     1         . = ALIGN ( 2 )
+   ff576    ff576        0     1         . = ALIGN ( 2 )
+   ff576    ff576        0     1         . = ALIGN ( 2 )
+   ff576    ff576        0     1         __ebss = .
+   ff576    ff576        0     1 PROVIDE ( __bsssize = SIZEOF ( .bss ) )
+   ff576    ff576        a     2 .bssf
+   ff576    ff576        0     1         . = ALIGN ( 2 )
+   ff576    ff576        a     1         . = ALIGN ( 128 )
+   ff580    ff580        0     1         __end = .
+   ff580    ff580        0     1 PROVIDE ( __stack_size = 0x100 )
+   ffe20    ffe20        0     1 .stack
+   ffe20    ffe20        0     1         PROVIDE ( __stack = . )
+   ffe20    ffe20        0     1         
+       0        0     12c8     1 .debug_abbrev
+       0        0       ab     1         ./src/smc_gen/r_pincfg/Pin.o:(.debug_abbrev)
+      ab       ab      130     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.debug_abbrev)
+     1db      1db      110     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.debug_abbrev)
+     2eb      2eb       21     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_abbrev)
+     30c      30c       21     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_abbrev)
+     32d      32d       9d     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.debug_abbrev)
+     3ca      3ca       4f     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.debug_abbrev)
+     419      419       48     1         ./src/smc_gen/general/r_cg_inthandler.o:(.debug_abbrev)
+     461      461       91     1         ./src/smc_gen/general/r_cg_rtc_common.o:(.debug_abbrev)
+     4f2      4f2       c6     1         ./src/smc_gen/general/r_cg_sau_common.o:(.debug_abbrev)
+     5b8      5b8       b6     1         ./src/smc_gen/general/r_cg_systeminit.o:(.debug_abbrev)
+     66e      66e       67     1         ./src/smc_gen/general/r_cg_vect_table.o:(.debug_abbrev)
+     6d5      6d5      150     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.debug_abbrev)
+     825      825      155     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.debug_abbrev)
+     97a      97a      1e9     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.debug_abbrev)
+     b63      b63      1d8     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.debug_abbrev)
+     d3b      d3b       e2     1         ./src/smc_gen/Config_PORT/Config_PORT.o:(.debug_abbrev)
+     e1d      e1d       2f     1         ./src/smc_gen/Config_PORT/Config_PORT_user.o:(.debug_abbrev)
+     e4c      e4c      179     1         ./src/VFD.o:(.debug_abbrev)
+     fc5      fc5      303     1         ./src/test2_1.o:(.debug_abbrev)
+       0        0     2dfc     1 .debug_info
+       0        0      1af     1         ./src/smc_gen/r_pincfg/Pin.o:(.debug_info)
+     1af      1af      21a     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.debug_info)
+     3c9      3c9      179     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.debug_info)
+     542      542      13d     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_info)
+     67f      67f      205     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_info)
+     884      884       85     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.debug_info)
+     909      909       56     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.debug_info)
+     95f      95f      23e     1         ./src/smc_gen/general/r_cg_inthandler.o:(.debug_info)
+     b9d      b9d       c4     1         ./src/smc_gen/general/r_cg_rtc_common.o:(.debug_info)
+     c61      c61      185     1         ./src/smc_gen/general/r_cg_sau_common.o:(.debug_info)
+     de6      de6       f6     1         ./src/smc_gen/general/r_cg_systeminit.o:(.debug_info)
+     edc      edc       91     1         ./src/smc_gen/general/r_cg_vect_table.o:(.debug_info)
+     f6d      f6d      3e6     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.debug_info)
+    1353     1353      21a     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.debug_info)
+    156d     156d      50e     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.debug_info)
+    1a7b     1a7b      2ec     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.debug_info)
+    1d67     1d67      2e8     1         ./src/smc_gen/Config_PORT/Config_PORT.o:(.debug_info)
+    204f     204f       30     1         ./src/smc_gen/Config_PORT/Config_PORT_user.o:(.debug_info)
+    207f     207f      26e     1         ./src/VFD.o:(.debug_info)
+    22ed     22ed      b0f     1         ./src/test2_1.o:(.debug_info)
+       0        0      d28     1 .debug_str_offsets
+       0        0       84     1         ./src/smc_gen/r_pincfg/Pin.o:(.debug_str_offsets)
+      84       84       a8     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.debug_str_offsets)
+     12c      12c       9c     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.debug_str_offsets)
+     1c8      1c8       2c     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.debug_str_offsets)
+     1f4      1f4       24     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.debug_str_offsets)
+     218      218       c0     1         ./src/smc_gen/general/r_cg_inthandler.o:(.debug_str_offsets)
+     2d8      2d8       50     1         ./src/smc_gen/general/r_cg_rtc_common.o:(.debug_str_offsets)
+     328      328       8c     1         ./src/smc_gen/general/r_cg_sau_common.o:(.debug_str_offsets)
+     3b4      3b4       60     1         ./src/smc_gen/general/r_cg_systeminit.o:(.debug_str_offsets)
+     414      414       2c     1         ./src/smc_gen/general/r_cg_vect_table.o:(.debug_str_offsets)
+     440      440      124     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.debug_str_offsets)
+     564      564       b0     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.debug_str_offsets)
+     614      614      17c     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.debug_str_offsets)
+     790      790      10c     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.debug_str_offsets)
+     89c      89c       cc     1         ./src/smc_gen/Config_PORT/Config_PORT.o:(.debug_str_offsets)
+     968      968       18     1         ./src/smc_gen/Config_PORT/Config_PORT_user.o:(.debug_str_offsets)
+     980      980       d4     1         ./src/VFD.o:(.debug_str_offsets)
+     a54      a54      2d4     1         ./src/test2_1.o:(.debug_str_offsets)
+       0        0     18c0     1 .debug_str
+       0        0     18c0     1         <internal>:(.debug_str)
+       0        0      53c     1 .debug_addr
+       0        0        c     1         ./src/smc_gen/r_pincfg/Pin.o:(.debug_addr)
+       c        c       20     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.debug_addr)
+      2c       2c       38     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.debug_addr)
+      64       64       28     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.debug_addr)
+      8c       8c       18     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.debug_addr)
+      a4       a4       b4     1         ./src/smc_gen/general/r_cg_inthandler.o:(.debug_addr)
+     158      158       10     1         ./src/smc_gen/general/r_cg_rtc_common.o:(.debug_addr)
+     168      168       3c     1         ./src/smc_gen/general/r_cg_sau_common.o:(.debug_addr)
+     1a4      1a4       18     1         ./src/smc_gen/general/r_cg_systeminit.o:(.debug_addr)
+     1bc      1bc       18     1         ./src/smc_gen/general/r_cg_vect_table.o:(.debug_addr)
+     1d4      1d4       60     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.debug_addr)
+     234      234       6c     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.debug_addr)
+     2a0      2a0       c8     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.debug_addr)
+     368      368       54     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.debug_addr)
+     3bc      3bc       14     1         ./src/smc_gen/Config_PORT/Config_PORT.o:(.debug_addr)
+     3d0      3d0        c     1         ./src/smc_gen/Config_PORT/Config_PORT_user.o:(.debug_addr)
+     3dc      3dc       4c     1         ./src/VFD.o:(.debug_addr)
+     428      428      114     1         ./src/test2_1.o:(.debug_addr)
+       0        0       59     1 .comment
+       0        0       59     1         <internal>:(.comment)
+       0        0      b1c     4 .debug_frame
+       0        0       24     4         ./src/smc_gen/r_pincfg/Pin.o:(.debug_frame)
+      24       24       44     4         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.debug_frame)
+      68       68       78     4         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.debug_frame)
+      e0       e0       54     4         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.debug_frame)
+     134      134       34     4         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.debug_frame)
+     168      168      2c4     4         ./src/smc_gen/general/r_cg_inthandler.o:(.debug_frame)
+     42c      42c       34     4         ./src/smc_gen/general/r_cg_rtc_common.o:(.debug_frame)
+     460      460       d4     4         ./src/smc_gen/general/r_cg_sau_common.o:(.debug_frame)
+     534      534       24     4         ./src/smc_gen/general/r_cg_systeminit.o:(.debug_frame)
+     558      558       c4     4         ./src/smc_gen/Config_UART1/Config_UART1.o:(.debug_frame)
+     61c      61c      11c     4         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.debug_frame)
+     738      738      13c     4         ./src/smc_gen/Config_RTC/Config_RTC.o:(.debug_frame)
+     874      874       d4     4         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.debug_frame)
+     948      948       34     4         ./src/smc_gen/Config_PORT/Config_PORT.o:(.debug_frame)
+     97c      97c       24     4         ./src/smc_gen/Config_PORT/Config_PORT_user.o:(.debug_frame)
+     9a0      9a0       98     4         ./src/VFD.o:(.debug_frame)
+     a38      a38       e4     4         ./src/test2_1.o:(.debug_frame)
+       0        0     1e44     1 .debug_line
+       0        0       9e     1         ./src/smc_gen/r_pincfg/Pin.o:(.debug_line)
+      9e       9e      177     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.debug_line)
+     215      215      23a     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.debug_line)
+     44f      44f       48     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_line)
+     497      497       92     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_line)
+     529      529       d0     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.debug_line)
+     5f9      5f9       b0     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.debug_line)
+     6a9      6a9      388     1         ./src/smc_gen/general/r_cg_inthandler.o:(.debug_line)
+     a31      a31       b2     1         ./src/smc_gen/general/r_cg_rtc_common.o:(.debug_line)
+     ae3      ae3      1cb     1         ./src/smc_gen/general/r_cg_sau_common.o:(.debug_line)
+     cae      cae       e5     1         ./src/smc_gen/general/r_cg_systeminit.o:(.debug_line)
+     d93      d93       5c     1         ./src/smc_gen/general/r_cg_vect_table.o:(.debug_line)
+     def      def      1dc     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.debug_line)
+     fcb      fcb      263     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.debug_line)
+    122e     122e      3d6     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.debug_line)
+    1604     1604      272     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.debug_line)
+    1876     1876       f2     1         ./src/smc_gen/Config_PORT/Config_PORT.o:(.debug_line)
+    1968     1968       6e     1         ./src/smc_gen/Config_PORT/Config_PORT_user.o:(.debug_line)
+    19d6     19d6      1f2     1         ./src/VFD.o:(.debug_line)
+    1bc8     1bc8      27c     1         ./src/test2_1.o:(.debug_line)
+       0        0      a62     1 .debug_line_str
+       0        0      a62     1         <internal>:(.debug_line_str)
+       0        0      1ea     1 .stack_sizes
+       0        0        5     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.stack_sizes)
+       5        5        5     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.stack_sizes)
+       a        a        5     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.stack_sizes)
+       f        f        5     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.stack_sizes)
+      14       14        5     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.stack_sizes)
+      19       19        5     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.stack_sizes)
+      1e       1e        5     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.stack_sizes)
+      23       23        5     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.stack_sizes)
+      28       28        5     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.stack_sizes)
+      2d       2d        5     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.stack_sizes)
+      32       32        5     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.stack_sizes)
+      37       37        5     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.stack_sizes)
+      3c       3c        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      41       41        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      46       46        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      4b       4b        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      50       50        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      55       55        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      5a       5a        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      5f       5f        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      64       64        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      69       69        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      6e       6e        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      73       73        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      78       78        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      7d       7d        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      82       82        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      87       87        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      8c       8c        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      91       91        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      96       96        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      9b       9b        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      a0       a0        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      a5       a5        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      aa       aa        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      af       af        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      b4       b4        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      b9       b9        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      be       be        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      c3       c3        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      c8       c8        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      cd       cd        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      d2       d2        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      d7       d7        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      dc       dc        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      e1       e1        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      e6       e6        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      eb       eb        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      f0       f0        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      f5       f5        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      fa       fa        5     1         ./src/smc_gen/general/r_cg_inthandler.o:(.stack_sizes)
+      ff       ff        5     1         ./src/smc_gen/general/r_cg_sau_common.o:(.stack_sizes)
+     104      104        5     1         ./src/smc_gen/general/r_cg_systeminit.o:(.stack_sizes)
+     109      109        5     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.stack_sizes)
+     10e      10e        5     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.stack_sizes)
+     113      113        5     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.stack_sizes)
+     118      118        5     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.stack_sizes)
+     11d      11d        5     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.stack_sizes)
+     122      122        5     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.stack_sizes)
+     127      127        5     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.stack_sizes)
+     12c      12c        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     131      131        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     136      136        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     13b      13b        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     140      140        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     145      145        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     14a      14a        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     14f      14f        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     154      154        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     159      159        5     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.stack_sizes)
+     15e      15e        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     163      163        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     168      168        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     16d      16d        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     172      172        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     177      177        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     17c      17c        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     181      181        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     186      186        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     18b      18b        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     190      190        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     195      195        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     19a      19a        5     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.stack_sizes)
+     19f      19f        5     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.stack_sizes)
+     1a4      1a4        5     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.stack_sizes)
+     1a9      1a9        5     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.stack_sizes)
+     1ae      1ae        5     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.stack_sizes)
+     1b3      1b3        5     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.stack_sizes)
+     1b8      1b8        5     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.stack_sizes)
+     1bd      1bd        5     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.stack_sizes)
+     1c2      1c2        5     1         ./src/smc_gen/Config_PORT/Config_PORT.o:(.stack_sizes)
+     1c7      1c7        5     1         ./src/smc_gen/Config_PORT/Config_PORT_user.o:(.stack_sizes)
+     1cc      1cc        5     1         ./src/VFD.o:(.stack_sizes)
+     1d1      1d1        5     1         ./src/VFD.o:(.stack_sizes)
+     1d6      1d6        5     1         ./src/VFD.o:(.stack_sizes)
+     1db      1db        5     1         ./src/VFD.o:(.stack_sizes)
+     1e0      1e0        5     1         ./src/VFD.o:(.stack_sizes)
+     1e5      1e5        5     1         ./src/VFD.o:(.stack_sizes)
+       0        0      6ee     1 .debug_loclists
+       0        0       89     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.debug_loclists)
+      89       89       3e     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.debug_loclists)
+      c7       c7       9d     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.debug_loclists)
+     164      164       4a     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.debug_loclists)
+     1ae      1ae      1d6     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.debug_loclists)
+     384      384      20a     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.debug_loclists)
+     58e      58e       89     1         ./src/VFD.o:(.debug_loclists)
+     617      617       d7     1         ./src/test2_1.o:(.debug_loclists)
+       0        0      2bc     1 .debug_rnglists
+       0        0       17     1         ./src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o:(.debug_rnglists)
+      17       17       1e     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common.o:(.debug_rnglists)
+      35       35       1d     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o:(.debug_rnglists)
+      52       52       17     1         ./src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o:(.debug_rnglists)
+      69       69       92     1         ./src/smc_gen/general/r_cg_inthandler.o:(.debug_rnglists)
+      fb       fb       17     1         ./src/smc_gen/general/r_cg_rtc_common.o:(.debug_rnglists)
+     112      112       35     1         ./src/smc_gen/general/r_cg_sau_common.o:(.debug_rnglists)
+     147      147       30     1         ./src/smc_gen/Config_UART1/Config_UART1.o:(.debug_rnglists)
+     177      177       32     1         ./src/smc_gen/Config_UART1/Config_UART1_user.o:(.debug_rnglists)
+     1a9      1a9       47     1         ./src/smc_gen/Config_RTC/Config_RTC.o:(.debug_rnglists)
+     1f0      1f0       27     1         ./src/smc_gen/Config_RTC/Config_RTC_user.o:(.debug_rnglists)
+     217      217       17     1         ./src/smc_gen/Config_PORT/Config_PORT.o:(.debug_rnglists)
+     22e      22e       4e     1         ./src/VFD.o:(.debug_rnglists)
+     27c      27c       40     1         ./src/test2_1.o:(.debug_rnglists)
+       0        0       40     1 .debug_aranges
+       0        0       20     1         ./src/smc_gen/r_bsp/mcu/all/r_bsp_common_llvm.o:(.debug_aranges)
+      20       20       20     1         ./src/smc_gen/r_bsp/mcu/all/start.o:(.debug_aranges)
+       0        0     3480     4 .symtab
+       0        0     3480     4         <internal>:(.symtab)
+       0        0      14e     1 .shstrtab
+       0        0      14e     1         <internal>:(.shstrtab)
+       0        0     2d66     1 .strtab
+       0        0     2d66     1         <internal>:(.strtab)
