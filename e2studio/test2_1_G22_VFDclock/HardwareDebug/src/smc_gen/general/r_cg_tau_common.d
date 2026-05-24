@@ -1,0 +1,40 @@
+src/smc_gen/general/r_cg_tau_common.o: \
+  ..\src\smc_gen\general\r_cg_tau_common.c \
+  ..\src\smc_gen\general\r_cg_macrodriver.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\platform.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\.\board\generic_rl78_g23\r_bsp.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_config\r_bsp_config.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\r_bsp_rl78_compiler.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\r_bsp_common.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\r_rtos.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\fsp_common_api.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\r_fsp_error.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\rl78_g23\register_access\llvm\iodefine.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\rl78_g23\register_access\llvm\iodefine_ext.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\rl78_g23\mcu_info.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.h \
+  ..\src\smc_gen\general\r_cg_interrupt_handlers.h \
+  ..\src\smc_gen\general\r_cg_userdefine.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\Config_TAU0_0\Config_TAU0_0.h \
+  D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\general\r_cg_tau.h \
+  ..\src\smc_gen\general\r_cg_tau_common.h
+..\src\smc_gen\general\r_cg_macrodriver.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\platform.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\.\board\generic_rl78_g23\r_bsp.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_config\r_bsp_config.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\r_bsp_rl78_compiler.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\r_bsp_common.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\r_rtos.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\fsp_common_api.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\all\r_fsp_error.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\rl78_g23\register_access\llvm\iodefine.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\rl78_g23\register_access\llvm\iodefine_ext.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\mcu\rl78_g23\mcu_info.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.h:
+..\src\smc_gen\general\r_cg_interrupt_handlers.h:
+..\src\smc_gen\general\r_cg_userdefine.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\Config_TAU0_0\Config_TAU0_0.h:
+D:\Users\fenrir_\Drive\Electronics\e2_studio\workspace\test2_1\src\smc_gen\general\r_cg_tau.h:
+..\src\smc_gen\general\r_cg_tau_common.h:
